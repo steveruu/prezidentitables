@@ -1,0 +1,55 @@
+html, body {
+    margin: 0 auto;
+    padding: 0;
+    font-weight: lighter;
+}
+
+body {
+    max-width: 1200px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.container {
+    margin: 1em 1em;
+}
+
+th, td {
+    margin: 0;
+    border: 1px solid grey;
+
+}
+
+.cesko {
+    background-color: rgba(103, 193, 236, 0.6);
+    text-align: left;
+}
+
+.slovensko {
+    background-color: rgba(227, 80, 98, 0.5);
+}
+
+.slovensko td {
+    text-align: center;
+}
+
+.do, .od {
+    background-color: beige;
+}
+
+.communist {
+    background-color: red;
+    color: yellow;
+}
+
+.democrat {
+    background-color: blue;
+    color: yellow;
+}
+
+.nan {
+    color: grey;
+}
