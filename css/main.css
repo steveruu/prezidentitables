@@ -10,6 +10,7 @@ body {
 
 table {
     width: 100%;
+    height: 60vh;
     border-collapse: collapse;
 }
 
@@ -18,9 +19,7 @@ table {
 }
 
 th, td {
-    margin: 0;
     border: 1px solid grey;
-
 }
 
 .cesko {
@@ -52,4 +51,12 @@ th, td {
 
 .nan {
     color: grey;
+}
+
+tfoot {
+    border-top: 3px solid black;
+}
+
+thead {
+    border-bottom: 3px solid black;
 }
